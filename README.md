@@ -10,7 +10,6 @@ Este projeto é um sistema de reservas de poltronas desenvolvido em C++. Ele sim
   - **Classe Executiva**: Sem restrições para a reserva.
 - **Planos de Reserva**:
   - **Plano Individual**: Reserva de um assento por vez.
-  - **Plano Casal**: Reserva de dois assentos juntos.
   - **Plano Familiar**: Opções para 3, 4 ou 5 pessoas, permitindo diferentes fileiras para cada assento.
 - **Recomendações de Assentos**: Sugestões automáticas para a escolha de poltronas próximas.
 
