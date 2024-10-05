@@ -1,37 +1,57 @@
-# Sistema de Poltronas
+# Sistema de Poltrona
 
-Este projeto é um sistema de reservas de poltronas desenvolvido em C++. Ele simula a escolha de assentos em um ambiente como cinema ou avião, permitindo que os usuários reservem poltronas de acordo com diferentes critérios.
+Este é um projeto desenvolvido em C++ que simula um sistema de reserva de poltronas, semelhante ao de um cinema. O sistema permite que os usuários escolham poltronas em diferentes classes (econômica e executiva), com funcionalidades para reservas em grupo e recomendações de assentos.
 
 ## Funcionalidades
 
-- **Exibir Poltronas Disponíveis**: Mostra o estado atual das poltronas, onde as disponíveis são indicadas e as ocupadas são marcadas com 'X'.
-- **Classes de Serviço**:
-  - **Classe Econômica**: Restrição nas reservas das poltronas `A` e `F`.
-  - **Classe Executiva**: Sem restrições para a reserva.
-- **Planos de Reserva**:
-  - **Plano Individual**: Reserva de um assento por vez.
-  - **Plano Familiar**: Opções para 3, 4 ou 5 pessoas, permitindo diferentes fileiras para cada assento.
-- **Recomendações de Assentos**: Sugestões automáticas para a escolha de poltronas próximas.
+- Exibir a imagem das poltronas disponíveis (vazias ou marcadas com 'X').
+- Implementar um sistema de classes (econômica e executiva).
+- Remover acentos do código.
+- Salvar quais poltronas foram escolhidas.
+- Criar planos familiares para 3, 4 ou 5 pessoas e um plano casal para 2 pessoas.
+- Permitir que no plano familiar seja possível escolher diferentes fileiras para cada assento.
+- Impedir que a classe econômica reserve as poltronas A e F.
+- A recomendação de poltrona deve ser feita de uma única vez, com as poltronas recomendadas sendo próximas.
 
-## Estrutura do Código
+## Como Usar
 
-O projeto é estruturado em classes e funções, com as principais classes sendo:
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu_usuario/sistema-de-poltrona.git
+    ```
+   
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd sistema-de-poltrona
+    ```
 
-- **Poltrona**: Representa uma poltrona individual, com propriedades como:
-  - `char letra`: Letra da poltrona (A a F).
-  - `bool ocupada`: Indica se a poltrona está ocupada ou não.
+3. Compile o código:
+    ```bash
+    g++ main.cpp -o sistema_de_poltrona
+    ```
 
-- **ClasseEconomica**: Herda de `Poltrona` e implementa regras específicas para a classe econômica.
+4. Execute o programa:
+    ```bash
+    ./sistema_de_poltrona
+    ```
 
-- **ClasseExecutiva**: Herda de `Poltrona` e permite reservas sem restrições.
+## Capturas de Tela
 
-- **SistemaDeReserva**: Controla a lógica de reserva e exibição das poltronas, incluindo as recomendações de assentos.
+![Tela Principal](caminho/para/screenshot.png)
 
-## Exemplo de Uso
+## Tecnologias Utilizadas
 
-Para usar o sistema, siga os passos abaixo:
+- C++
 
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seu_usuario/sistema-de-poltronas.git
-   cd sistema-de-poltronas
+## Requisitos do Sistema
+
+- Sistema Operacional: Windows/Linux/Mac
+- Compilador: g++ ou clang
+- Memória: 1GB de RAM (mínimo recomendado)
+
+## Executando Testes
+
+Para executar os testes, utilize o seguinte comando:
+```bash
+g++ test.cpp -o test
+./test
