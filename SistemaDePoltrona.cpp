@@ -229,7 +229,7 @@ int main() {
 
     // Opções do menu
     while (true) {
-        printf("\n          Sistema de reservas de poltronas:\n\n1 - Reservar poltrona individual\n2 - Reserevar plano de poltrona familiar\n3 - Sair do sistema\nEscolha uma opcao: "); 
+        printf("\n          Sistema de reservas de poltronas:\n\n1 - Reservar poltrona individual\n2 - Reservar plano de poltrona familiar\n3 - Sair do sistema\nEscolha uma opcao: "); 
         int opcao;
         std::cin >> opcao;
 
