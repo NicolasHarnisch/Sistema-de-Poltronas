@@ -17,12 +17,13 @@ Primeiro, clone este repositório em sua máquina local
 # clonar repositório
 git clone (https://github.com/NicolasHarnisch/Sistema-de-Poltronas.git)
 
-# entrar na pasta do projeto back end
+# Entrar na pasta do projeto back end
 cd sistema-de-poltrona
 
 # Compilação e Execução
 g++ main.cpp -o sistema_de_poltrona
 
+#Em seguida, execute o programa:
 ./sistema_de_poltrona
 ```
 
