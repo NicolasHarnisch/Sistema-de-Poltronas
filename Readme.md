@@ -1,11 +1,11 @@
 # Sistema de Reserva de Poltronas 🎟️
 
-Este projeto é uma aplicação C++ que simula um sistema de reserva de poltronas semelhante ao de um cinema. Ele permite que os usuários escolham poltronas em diferentes classes (econômica e executiva), com funcionalidades como reserva em grupo, planos familiares e recomendações de assentos próximos.
+Este projeto é uma aplicação C++ que simula um sistema de reserva de poltronas semelhante ao de um avião. Ele permite que os usuários escolham poltronas em diferentes classes (econômica e executiva), com funcionalidades como reserva em grupo, planos familiares e recomendações de assentos próximos.
 
 ## 📜 Funcionalidades
 - **Visualização das Poltronas:** Exibe a disposição dos assentos disponíveis e ocupados.
 - **Reserva de Classes:** Possibilidade de escolher entre classes econômica e executiva.
-- **Armazenamento de Reservas:** As poltronas escolhidas são salvas durante a sessão.
+- **Armazenamento de Reservas:** As poltronas escolhidas são salvas no código.
 - **Planos Familiares:** Suporte para reservas de famílias de 2, 3, 4 ou 5 pessoas, com a flexibilidade de escolher diferentes fileiras para cada assento.
 - **Restrições de Assentos Econômicos:** Proíbe reservas dos assentos A e F na classe econômica, reservando-os para a classe executiva.
 - **Recomendações de Assentos:** O sistema sugere automaticamente assentos próximos para garantir que todos os membros de um grupo estejam juntos.
