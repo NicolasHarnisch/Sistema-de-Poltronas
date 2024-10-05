@@ -51,8 +51,6 @@ Para executar os testes, utilize o seguinte comando:
 g++ test.cpp -o test
 ./test
 
-Substitua os valores de exemplo (como `seu_usuario`, `caminho/para/screenshot.png`, `link-para-documentacao`, `Seu Nome`, e `seu-email@example.com`) pelos dados relevantes do seu projeto.
-
 
 
 
