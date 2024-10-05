@@ -8,7 +8,7 @@ Este é um projeto desenvolvido em C++ que simula um sistema de reserva de poltr
 - Implementar um sistema de classes (econômica e executiva).
 - Remover acentos do código.
 - Salvar quais poltronas foram escolhidas.
-- Criar planos familiares para 3, 4 ou 5 pessoas e um plano casal para 2 pessoas.
+- Criar planos familiares para 2, 3, 4 ou 5 pessoas.
 - Permitir que no plano familiar seja possível escolher diferentes fileiras para cada assento.
 - Impedir que a classe econômica reserve as poltronas A e F.
 - A recomendação de poltrona deve ser feita de uma única vez, com as poltronas recomendadas sendo próximas.
