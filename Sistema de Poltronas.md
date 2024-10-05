@@ -35,10 +35,6 @@ Este é um projeto desenvolvido em C++ que simula um sistema de reserva de poltr
     ./sistema_de_poltrona
     ```
 
-## Capturas de Tela
-
-![Tela Principal](caminho/para/screenshot.png)
-
 ## Tecnologias Utilizadas
 
 - C++
@@ -46,7 +42,7 @@ Este é um projeto desenvolvido em C++ que simula um sistema de reserva de poltr
 ## Requisitos do Sistema
 
 - Sistema Operacional: Windows/Linux/Mac
-- Compilador: g++ ou clang
+- Compilador: mingw
 - Memória: 1GB de RAM (mínimo recomendado)
 
 ## Executando Testes
