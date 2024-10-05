@@ -57,7 +57,7 @@ bool reservarPoltrona(char reserva[10][6]) {
     int recomendacao;
     std::cin >> recomendacao;
 
-    // Se o usuário deseja uma recomendação, vamos buscar uma poltrona disponível
+    // Se o usuário deseja uma recomendação, busca uma poltrona disponível
     if (recomendacao == 1) {
         for (fileira = 0; fileira < 10; fileira++) {
             for (int col = 0; col < 6; col++) {
@@ -102,7 +102,7 @@ bool reservarPoltrona(char reserva[10][6]) {
                     }
                     else {
                         printf("Continuando com a escolha manual da poltrona...\n");
-                        break; // Interrompe o loop e permite a escolha manual
+                        break; // Interrompe e permite a escolha manual
                     }
                 }
             }
