@@ -75,9 +75,13 @@ Contribuições são sempre bem-vindas! Se quiser melhorar o código, adicionar 
 ## 🔧 Melhorias Futuras
 - **Interface do Usuário:** Melhorar a interface textual, adicionando mais informações ao usuário sobre a disponibilidade dos assentos.
 - **Suporte a Mais Classes:** Incluir outras classes de assentos, como premium ou VIP, para maior personalização.
-- **Sistema de Recomendação:** Melhorado: Implementar um algoritmo de recomendação que considere preferências do usuário, como proximidade a uma tela ou distância de corredores.
+- **Sistema de Recomendação:** Implementar um algoritmo que considere as preferências do usuário, como a proximidade à janela, ao corredor e a possibilidade de casais ficarem próximos um do outro, além de permitir que os membros da família sejam alocados próximos uns aos outros, oferecendo uma variedade de opções.
 - **Plano Casal:** Adicionar uma opção de reserva para casais, permitindo escolher poltronas adjacentes de forma simplificada.
 - **Feedback do Usuário:** Implementar um sistema para coletar feedback dos usuários sobre a experiência de reserva e a qualidade do sistema.
+- **Reserva e Cancelamento de Assentos:** Permite que os usuários reservem e cancelem assentos facilmente, com atualizações em tempo real.
+- **Gamificação:** Implementar um sistema de recompensas para usuários frequentes ou que deixem feedback.
+- **Sistema de Login e Cadastro:** Autenticação de usuários para gerenciar reservas.
+
 
 ## 📝 Licença
 Este projeto está licenciado sob a MIT License. Sinta-se à vontade para usar, modificar e distribuir este projeto.
