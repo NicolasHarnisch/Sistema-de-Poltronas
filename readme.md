@@ -12,8 +12,6 @@ Este projeto é uma aplicação C++ que simula um sistema de reserva de poltrona
 - Memória: 1 GB de RAM (mínimo recomendado)
 
 ## 🔧 Melhorias Futuras
-- **Sistema de Recomendação Melhorado**: Implementar um algoritmo mais eficiente para sugestões de assentos, levando em consideração preferências de assento para a classe executiva e econômica
-- **Interface do Usuário**: Melhorar a interface textual, adicionando mais informações ao usuário sobre a disponibilidade dos assentos.
 - **Suporte a Mais Classes**: Incluir outras classes de assentos, como premium ou VIP, para maior personalização.
 - **Sistema de Avaliação**: Permitir que os usuários deixem feedback sobre o sistema e as poltronas, ajudando a melhorar o serviço.
 - **Criação de Conta de Usuário**: Permitir que os usuários criem contas para gerenciar suas reservas e preferências, facilitando a experiência no sistema.
